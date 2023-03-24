@@ -29,7 +29,7 @@ console.log(showGoodFilms(films));
 
 function showListOfFilms(arr) {
     let a =  arr.map(item => item.name);
-    return a.join();
+    return a.join(', ');
     }
 
 console.log(showListOfFilms(films));
@@ -41,8 +41,13 @@ function setFilmsIds(arr) {
         return id;
     });
 }
-    
+
+const tranformedArray = setFilmsIds(films);
+
+function checkFilms(arr) {
+   return arr.every(id => id.id || id.id === 0);
+}
 
 
-console.log(setFilmsIds(films));
+console.log(checkFilms(tranformedArray));
 
