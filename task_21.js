@@ -30,14 +30,4 @@ const getTotalIncomeAmount = (data) => {
 
 
 console.log(getTotalIncomeAmount(funds));
-/* 
 
-const getTotalIncomeAmount = (data) => {
-   
-        let result = data.reduce((sum, current) => {
-        return sum + current.amount;
-    }, 0);
-        return result;
-    };
-
-console.log(getTotalIncomeAmount(funds)); */
