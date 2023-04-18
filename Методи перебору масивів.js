@@ -41,7 +41,7 @@ const arr1 = ['pear', 'banana', 'grape', 'apple'];
 
 const fruit = arr1.reduce((sum, current) => {
     return  `${sum}, ${current}`;
-});
+}); 
 
 console.log(fruit);
 
