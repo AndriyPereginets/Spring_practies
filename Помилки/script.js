@@ -32,8 +32,6 @@ try {
     } else {
         throw e;
     }
-
-
 }
 
 const err = new SyntaxError(';bmfknmkfgm');

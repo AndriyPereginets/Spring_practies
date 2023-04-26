@@ -1,5 +1,14 @@
 {
+  "browsersList": [
+    ">1%"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
     "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.4"
   }
 }
