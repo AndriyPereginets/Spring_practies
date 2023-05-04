@@ -1,4 +1,4 @@
-import $ from 'jquery';
+import "jquery";
 
 $(document).ready(function() {
     $('.list-item:first').hover(function() {
